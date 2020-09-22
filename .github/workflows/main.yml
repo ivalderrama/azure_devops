@@ -23,8 +23,8 @@ jobs:
         run: |
           make install
       - name: Lint with pylint
-        run |
+        run: |
           make lint
       - name: Test with pytest
-        run |
+        run: |
           make test
